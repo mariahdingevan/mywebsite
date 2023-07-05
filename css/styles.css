@@ -50,6 +50,7 @@ h3 {
 .icons {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 a:hover {
@@ -152,6 +153,7 @@ p {
     margin: 50px auto;
     max-width: 1000px;
     font-weight: bold;
+    color: #1c1717;
   }
 
   /* BEGIN TOGGLE */
@@ -225,4 +227,21 @@ p {
 
   .dark-mode p {
     background-color: inherit;
+  }
+
+  .dark-mode #contact {
+    background-color: inherit;
+    
+  }
+
+  .dark-mode #contactmsg {
+    color: white;
+  }
+
+  .dark-mode h4 {
+    color: white;
+  }
+
+  .dark-mode .icons {
+    filter: invert();
   }
