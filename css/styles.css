@@ -219,6 +219,8 @@ p {
     transform: translateX(1.63rem);
   }
 
+  /* BEGIN DARK MODE CSS */
+
   .dark-mode {
     background-color: #333;
     color: #f0f0f0;
@@ -229,13 +231,8 @@ p {
     background-color: inherit;
   }
 
-  .dark-mode #contact {
-    background-color: inherit;
-    
-  }
-
   .dark-mode #contactmsg {
-    color: white;
+    color: white; 
   }
 
   .dark-mode h4 {
@@ -244,4 +241,9 @@ p {
 
   .dark-mode .icons {
     filter: invert();
+  }
+
+  .dark-mode #contact {
+    background-color: inherit;
+    border: double white 7px;
   }
